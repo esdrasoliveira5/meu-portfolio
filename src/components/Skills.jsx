@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import SequelizeLogo from '../img/logo-small.png';
+import StyledComponentsLogo from '../img/logo.png';
 
 const SkillsStyle = styled.div`
   margin: 20px;
@@ -60,8 +61,6 @@ const SkillStyled = styled.div`
   img {
     width: 100px;
   }
-
-
 `;
 
 function Skills() {
@@ -148,6 +147,20 @@ function Skills() {
             />
           </a>
           <h3>Bootstrap</h3>
+        </SkillStyled>
+        <SkillStyled>
+          <a
+            href="https://styled-components.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              style={{ backgroundColor: 'black' }}
+              src={StyledComponentsLogo}
+              alt="styled-components"
+            />
+          </a>
+          <h3>Styled Components</h3>
         </SkillStyled>
         <SkillStyled>
           <a
