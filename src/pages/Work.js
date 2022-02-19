@@ -64,12 +64,12 @@ const CardStyled = styled.div`
       transition: all .5s ease-in-out;
       transform: translateY(20px);
       cursor: pointer;
-        a   {
-          background-color: #000;
-          color: #fff;
-          padding: 10px;
-          text-decoration: none;
-        }
+      a   {
+        background-color: #000;
+        color: #fff;
+        padding: 10px;
+        text-decoration: none;
+      }
     }
     div:hover {
       opacity: 100;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const BodyStyled = styled.body`
+const BodyStyled = styled.main`
   display: flex;
   flex-direction: column;
   justify-content: center;

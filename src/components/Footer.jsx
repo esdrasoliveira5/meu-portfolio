@@ -7,7 +7,7 @@ const FooterStyle = styled.footer`
   justify-content: center;
   align-items: center;
   background-color: #2b2d42;
-  height: 100px;
+  height: 80px;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -16,7 +16,7 @@ const FooterStyle = styled.footer`
 function Footer() {
   return (
     <FooterStyle>
-      <h1>Footer</h1>
+      <p>2022 Design & build by Esdras Oliveira</p>
     </FooterStyle>
   );
 }

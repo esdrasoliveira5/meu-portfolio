@@ -18,6 +18,7 @@ const MainStyled = styled.main`
       align-items: center;
       overflow: hidden;
       height: 10%;
+      width: 50%;
       h1 {
         text-align: center;
         animation:  mymy 3s ;
