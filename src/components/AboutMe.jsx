@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const AboutMeStyle = styled.div`
+  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;

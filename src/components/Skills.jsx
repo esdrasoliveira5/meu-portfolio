@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import SequelizeLogo from '../img/logo-small.png';
 
 const SkillsStyle = styled.div`
+  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,11 +44,15 @@ const SkillsBoxStyled = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 80%;
-
+  width: 90%;
+  div:hover {
+    transform: scale(1.5);
+    transition: all .5s ease-in-out;
+  }
 `;
 
 const SkillStyled = styled.div`
+  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,6 +60,8 @@ const SkillStyled = styled.div`
   img {
     width: 100px;
   }
+
+
 `;
 
 function Skills() {
