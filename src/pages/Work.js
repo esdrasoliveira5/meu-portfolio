@@ -34,7 +34,6 @@ const CardBoxStyled = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 80%;
-
 `;
 
 const CardStyled = styled.div`

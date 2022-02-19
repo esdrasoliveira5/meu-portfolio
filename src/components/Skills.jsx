@@ -11,7 +11,7 @@ const SkillsStyle = styled.div`
   align-items: center;
   overflow: hidden;
   height: 10%;
-  width: 80%;
+  width: 70%;
   h1 {
     text-align: center;
     animation:  mymy 3s ;
