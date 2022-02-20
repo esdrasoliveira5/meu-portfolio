@@ -11,6 +11,7 @@ const HeaderStyled = styled.header`
   top: 0;
   width: 100%;
   height: 100px;
+  z-index: 1;
 `;
 
 function Header() {

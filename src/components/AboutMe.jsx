@@ -2,6 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const AboutMeStyle = styled.div`
+  @media screen and (max-width: 320px) {
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    width: 80%;
+  }
+
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -13,6 +20,7 @@ const AboutMeStyle = styled.div`
   h1 {
     text-align: center;
     animation:  mymy 3s ;
+    margin: 20px;
   }
   p {
     text-align: center;

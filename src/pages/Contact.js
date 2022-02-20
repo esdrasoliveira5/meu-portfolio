@@ -25,15 +25,21 @@ const HiddenBox = styled.div`
 `;
 
 const ContactBoxStyled = styled.div`
+  @media screen and (max-width: 320px) {
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    width: 80%;
+  }
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 80%;
+  width: 60%;
   a{
-    font-size: 40px;
+    font-size: 200%;
     color: #023047
   }
   div {

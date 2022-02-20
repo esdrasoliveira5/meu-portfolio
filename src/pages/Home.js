@@ -12,6 +12,12 @@ const MainStyled = styled.main`
   min-height: 100vh;
 
     div {
+      @media screen and (max-width: 320px) {
+        width: 100%;
+      }
+      @media screen and (max-width: 768px) {
+        width: 80%;
+      }
       display: flex;
       flex-direction: column;
       justify-content: center;
