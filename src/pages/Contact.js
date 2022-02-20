@@ -39,7 +39,7 @@ const ContactBoxStyled = styled.div`
   align-items: center;
   width: 60%;
   a{
-    font-size: 200%;
+    font-size: 1.5rem;
     color: #023047
   }
   div {
