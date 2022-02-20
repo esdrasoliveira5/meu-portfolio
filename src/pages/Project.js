@@ -14,6 +14,7 @@ const MainStyled = styled.main`
   min-height: 100vh;
   
   img {
+        padding: 20px;
         width: 40%;
       }
     div {
@@ -29,13 +30,30 @@ const MainStyled = styled.main`
       align-items: center;
       overflow: hidden;
       height: 10%;
-      width: 50%;
+      width: 60%;
       h1 {
         text-align: center;
         animation:  mymy 3s ;
       }
+      p{
+        padding: 10px;
+        width: 80%;
+      }
     }
 
+  @keyframes mymy {
+    from{ transform: translate(0px, 150px);}
+    to {transform: translate(0px, 0px);}
+  }
+`;
+
+const HiddenBox = styled.div`
+  width: 100%;
+  overflow: hidden;
+  h1 {
+    font-size: 30px;
+    animation:  mymy 3s ;
+  }
   @keyframes mymy {
     from{ transform: translate(0px, 150px);}
     to {transform: translate(0px, 0px);}
@@ -51,15 +69,19 @@ function Project() {
     description,
     link,
     img,
+    github,
   } = projects[path - 1];
   return (
     <MainStyled>
       <Header />
       <img src={img} alt="" />
       <div>
-        <h1>{title}</h1>
+        <HiddenBox>
+          <h1>{title}</h1>
+        </HiddenBox>
         <p>{description}</p>
         <a href={link}>Site</a>
+        <a href={github}>GitHub</a>
       </div>
       <Footer />
     </MainStyled>
