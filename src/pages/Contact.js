@@ -10,6 +10,9 @@ const BodyStyled = styled.main`
   align-items: center;
   position: relative;
   min-height: 100vh;
+  p {
+    text-align: center;
+  }
 `;
 
 const HiddenBox = styled.div`
