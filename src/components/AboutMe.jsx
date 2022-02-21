@@ -27,7 +27,7 @@ const AboutMeStyle = styled.div`
   }
 
   @keyframes mymy {
-    from{ transform: translate(0px, 150px);}
+    from{ transform: translate(0px, 80px);}
     to {transform: translate(0px, 0px);}
   }
 `;

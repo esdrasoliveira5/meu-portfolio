@@ -24,7 +24,7 @@ function Work() {
     background-color: ${backgroundColor};
     color: ${fontColor};
     
-    animation: ${animation} 5s;
+    animation: ${animation} 3s;
     @keyframes whiteToBlack {
       from {background-color: white;}
       to {background-color: #2B2D42;}
@@ -45,7 +45,7 @@ function Work() {
       animation:  mymy 3s ;
     }
     @keyframes mymy {
-      from{ transform: translate(0px, 150px);}
+      from{ transform: translate(0px, 80px);}
       to {transform: translate(0px, 0px);}
     }
   `;

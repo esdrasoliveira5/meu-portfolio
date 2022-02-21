@@ -19,7 +19,7 @@ function Footer() {
   bottom: 0;
   width: 100%;
 
-  animation: ${animation} 5s;
+  animation: ${animation} 3s;
   @keyframes whiteToBlack {
     from {background-color: white;}
     to {background-color: #2B2D42;}
