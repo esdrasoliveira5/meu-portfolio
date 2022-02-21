@@ -5,8 +5,8 @@ import PortfolioContext from '../context/AppContext';
 const SwitchLabel = styled.label`
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 52px;
+  height: 28px;
     input {
       opacity: 0;
       width: 0;
@@ -28,9 +28,9 @@ const SwitchLabel = styled.label`
     span:before {
       position: absolute;
       content: "";
-      height: 26px;
-      width: 26px;
-      left: 4px;
+      height: 20px;
+      width: 20px;
+      left: 3px;
       bottom: 4px;
       background-color: white;
       -webkit-transition: .4s;
