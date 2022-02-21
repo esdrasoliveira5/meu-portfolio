@@ -1,15 +1,34 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import PortfolioContext from '../context/AppContext';
 
-const MainStyled = styled.main`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  min-height: 100vh;
+function Home() {
+  const { nightMode } = useContext(PortfolioContext);
+  const backgroundColor = nightMode ? '#2B2D42' : 'white';
+  const fontColor = nightMode ? 'white' : '#2B2D42';
+  const animation = nightMode ? 'whiteToBlack' : 'BlackToWhite';
+
+  const MainStyled = styled.main`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    background-color: ${backgroundColor};
+    color: ${fontColor};
+    
+    animation: ${animation} 5s;
+    @keyframes whiteToBlack {
+      from {background-color: white;}
+      to {background-color: #2B2D42;}
+    }
+    @keyframes BlackToWhite {
+      from {background-color: #2B2D42;}
+      to {background-color: white;}
+    }
 
     div {
       @media screen and (max-width: 320px) {
@@ -36,8 +55,6 @@ const MainStyled = styled.main`
     to {transform: translate(0px, 0px);}
   }
 `;
-
-function Home() {
   return (
     <MainStyled>
       <Header />

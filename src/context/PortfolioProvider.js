@@ -59,8 +59,13 @@ function PortfolioProvider({ children }) {
       github: '',
     },
   ]);
-
-  const contextValue = useMemo(() => ({ projects, setProjects }), []);
+  const [nightMode, setNightMode] = useState(false);
+  const contextValue = useMemo(() => ({
+    projects,
+    setProjects,
+    nightMode,
+    setNightMode,
+  }), [nightMode, setNightMode]);
 
   return (
     <PortfolioContext.Provider value={contextValue}>

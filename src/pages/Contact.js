@@ -1,21 +1,40 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import PortfolioContext from '../context/AppContext';
 
-const BodyStyled = styled.main`
+function Contact() {
+  const { nightMode } = useContext(PortfolioContext);
+  const backgroundColor = nightMode ? '#2B2D42' : 'white';
+  const fontColor = nightMode ? 'white' : '#2B2D42';
+  const animation = nightMode ? 'whiteToBlack' : 'BlackToWhite';
+
+  const BodyStyled = styled.main`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
   min-height: 100vh;
+  background-color: ${backgroundColor};
+  color: ${fontColor};
+
+  animation: ${animation} 5s;
+  @keyframes whiteToBlack {
+    from {background-color: white;}
+    to {background-color: #2B2D42;}
+  }
+  @keyframes BlackToWhite {
+    from {background-color: #2B2D42;}
+    to {background-color: white;}
+  }
   p {
     text-align: center;
   }
 `;
 
-const HiddenBox = styled.div`
+  const HiddenBox = styled.div`
   overflow: hidden;
   h1 {
     font-size: 50px;
@@ -27,7 +46,7 @@ const HiddenBox = styled.div`
   }
 `;
 
-const ContactBoxStyled = styled.div`
+  const ContactBoxStyled = styled.div`
   @media screen and (max-width: 320px) {
     width: 100%;
   }
@@ -43,7 +62,7 @@ const ContactBoxStyled = styled.div`
   width: 60%;
   a{
     font-size: 1.5rem;
-    color: #023047
+    color: ${fontColor}
   }
   div {
     margin: 20px;
@@ -58,8 +77,6 @@ const ContactBoxStyled = styled.div`
     }
   }
 `;
-
-function Contact() {
   return (
     <BodyStyled>
       <Header />
