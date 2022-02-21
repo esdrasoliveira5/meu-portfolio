@@ -19,7 +19,6 @@ function Home() {
     min-height: 100vh;
     background-color: ${backgroundColor};
     color: ${fontColor};
-    
     animation: ${animation} 3s;
     @keyframes whiteToBlack {
       from {background-color: white;}
