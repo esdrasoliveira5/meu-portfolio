@@ -11,6 +11,10 @@ function Header() {
   const animation = nightMode ? 'whiteToBlack' : 'BlackToWhite';
 
   const HeaderStyled = styled.header`
+      @media screen and (max-width: 768px) {
+      flex-direction: column;
+      height: 20%;
+    }
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -25,11 +29,15 @@ function Header() {
     animation: ${animation} 3s;
     nav {
       @media screen and (max-width: 768px) {
-        font-size: 12px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+        width: 100%;
       }
       display: flex;
       justify-content: space-around;
-      flex-grow: 6;
+      width: 60%;
     }
     @keyframes whiteToBlack {
       from {background-color: white;}
