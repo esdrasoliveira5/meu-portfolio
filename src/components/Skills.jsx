@@ -193,19 +193,6 @@ function Skills() {
         </SkillStyled>
         <SkillStyled>
           <a
-            href="https://www.nginx.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg"
-              alt="nginx"
-            />
-          </a>
-          <h3>Nginx</h3>
-        </SkillStyled>
-        <SkillStyled>
-          <a
             href="https://sequelize.org/"
             target="_blank"
             rel="noreferrer"
@@ -255,19 +242,6 @@ function Skills() {
             />
           </a>
           <h3>Postgresql</h3>
-        </SkillStyled>
-        <SkillStyled>
-          <a
-            href="https://www.gnu.org/software/bash/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"
-              alt="bash"
-            />
-          </a>
-          <h3>Bash</h3>
         </SkillStyled>
         <SkillStyled>
           <a
