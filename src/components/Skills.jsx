@@ -12,29 +12,8 @@ const SkillsStyle = styled.div`
   overflow: hidden;
   height: 10%;
   width: 70%;
-  h1 {
-    text-align: center;
-    animation:  mymy 3s ;
-  }
   p {
     text-align: center;
-  }
-
-  @keyframes mymy {
-    from{ transform: translate(0px, 80px);}
-    to {transform: translate(0px, 0px);}
-  }
-`;
-
-const HiddenBox = styled.div`
-  overflow: hidden;
-  h1 {
-    font-size: 50px;
-    animation:  mymy 3s ;
-  }
-  @keyframes mymy {
-    from{ transform: translate(0px, 150px);}
-    to {transform: translate(0px, 0px);}
   }
 `;
 
@@ -66,9 +45,7 @@ const SkillStyled = styled.div`
 function Skills() {
   return (
     <SkillsStyle>
-      <HiddenBox>
-        <h1>Skills</h1>
-      </HiddenBox>
+      <h1>Skills</h1>
       <SkillsBoxStyled>
         <SkillStyled>
           <a

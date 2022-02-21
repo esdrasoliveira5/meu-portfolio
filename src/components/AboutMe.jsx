@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import MeImg from '../img/IMG_20210811_113245.jpg';
 
 const AboutMeStyle = styled.div`
   @media screen and (max-width: 320px) {
@@ -17,6 +18,20 @@ const AboutMeStyle = styled.div`
   overflow: hidden;
   height: 10%;
   width: 60%;
+
+  img {
+    @media screen and (max-width: 320px) {
+    width: 80%;
+    }
+    @media screen and (max-width: 768px) {
+    width: 70%;
+    }
+    @media screen and (min-width: 1200px) {
+    width: 40%;
+    }
+    width: 60%;
+    margin: 20px;
+  }
   h1 {
     text-align: center;
     animation:  mymy 3s ;
@@ -32,24 +47,10 @@ const AboutMeStyle = styled.div`
   }
 `;
 
-const HiddenBox = styled.div`
-  overflow: hidden;
-  h1 {
-    font-size: 50px;
-    animation:  mymy 3s ;
-  }
-  @keyframes mymy {
-    from{ transform: translate(0px, 150px);}
-    to {transform: translate(0px, 0px);}
-  }
-`;
-
 function AboutMe() {
   return (
     <AboutMeStyle>
-      <HiddenBox>
-        <h1>About me</h1>
-      </HiddenBox>
+      <img src={MeImg} alt="" />
       <p>
         {
           `Sou um apaixonado por musica, artes e tecnologia, bacharel em musica pela Universidade Federal de Minas Gerais,

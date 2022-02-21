@@ -35,9 +35,24 @@ function About() {
   }
 `;
 
+  const HiddenBox = styled.div`
+    overflow: hidden;
+    h1 {
+      font-size: 50px;
+      animation:  mymy 3s ;
+    }
+    @keyframes mymy {
+      from{ transform: translate(0px, 150px);}
+      to {transform: translate(0px, 0px);}
+    }
+  `;
+
   return (
     <BodyStyled>
       <Header />
+      <HiddenBox>
+        <h1>About me</h1>
+      </HiddenBox>
       <AboutMe />
       <Skills />
       <Footer />
