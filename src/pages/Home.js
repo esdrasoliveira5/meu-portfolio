@@ -58,8 +58,8 @@ function Home() {
     <MainStyled>
       <Header />
       <div>
-        <h3>Olá, meu nome é Esdras</h3>
-        <h1>Desenvolvedor Web Fullstack, musico e um apaixonado por tecnologia.</h1>
+        <h3>Olá, meu nome é Esdras Oliveira.</h3>
+        <h1>Desenvolvedor Web Fullstack, músico e um apaixonado por tecnologia.</h1>
       </div>
       <Footer />
     </MainStyled>

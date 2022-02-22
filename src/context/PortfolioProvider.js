@@ -10,9 +10,10 @@ function PortfolioProvider({ children }) {
     {
       id: 1,
       title: 'To-do List Front-end',
-      description: `E um simples app to-do list, a onde você cria uma conta e armazena tarefas.
-      Foram ultilizados a ferramenta Rect.js e o styled-components para a parte visual,
-      ele se comunica com um back-end atraves de requisicoes a Api.`,
+      description: `Um simples app to-do list,
+       a onde você cria uma conta e armazena tarefas. 
+       Foram utilizados a ferramenta Rect.js e o styled-components para a parte visual, 
+       ele se comunica com um back-end através de requisições a Api.`,
       link: 'https://to-do-list-ten-ashen.vercel.app/',
       img: ToDo1,
       github: 'https://github.com/esdrasoliveira5/To-do-list',
@@ -20,8 +21,9 @@ function PortfolioProvider({ children }) {
     {
       id: 2,
       title: 'To-do List Back-end',
-      description: `Api RESTful feita com node.js que se comunica com um banco de dados PostgreSql
-      atraves do Sequelize ORM e faz validacoes de permissao de usuario por token com o JWT`,
+      description: `Uma api RESTful feita com node.js que se comunica 
+      com um banco de dados PostgreSql através do Sequelize ORM e faz 
+      validações de permissão de usuário por token com o JWT.`,
       link: 'https://to-do-list-back-end-3456.herokuapp.com/',
       img: ToDoB,
       github: 'https://github.com/esdrasoliveira5/to-do-list-backend',

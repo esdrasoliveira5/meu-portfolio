@@ -67,7 +67,7 @@ function Work() {
       <HiddenBox>
         <h1>Works</h1>
       </HiddenBox>
-      <p>Esses sao alguns dos projetos que desenvolvi.</p>
+      <p>Esses são alguns dos projetos que desenvolvi.</p>
       <CardBoxStyled>
         {
           projects.map((project) => <CardProject project={project} />)
