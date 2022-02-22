@@ -59,6 +59,7 @@ function Work() {
     align-items: center;
     width: 80%;
     color: #2B2D42;
+    overflow: hidden;
   `;
   return (
     <BodyStyled>
