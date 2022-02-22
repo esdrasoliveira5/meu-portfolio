@@ -3,6 +3,7 @@ import React, { useState, useMemo } from 'react';
 import PortfolioContext from './AppContext';
 import ToDo1 from '../img/ToDo1.png';
 import ToDoB from '../img/TodoBack.png';
+import BlogsApi from '../img/BlogsApi.png';
 
 function PortfolioProvider({ children }) {
   const [projects, setProjects] = useState([
@@ -29,11 +30,12 @@ function PortfolioProvider({ children }) {
     },
     {
       id: 3,
-      title: 'titulo',
-      description: 'descricao',
-      link: 'www.alguma.coisa',
-      img: ToDoB,
-      github: '',
+      title: 'Blogs Api',
+      description: `API CRUD usando ORM com o pacote sequelize do npm  feita com node.js.
+      Esse API e capaz de criar usuarios, BlogPosts e categorias.`,
+      link: '',
+      img: BlogsApi,
+      github: 'https://github.com/esdrasoliveira5/Blogs-api',
     },
     {
       id: 4,
