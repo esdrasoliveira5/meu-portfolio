@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types';
 import React, { useState, useMemo } from 'react';
 import PortfolioContext from './AppContext';
-import Image from '../img/photo-1487837647815-bbc1f30cd0d2.jpeg';
 import ToDo1 from '../img/ToDo1.png';
-import ToDoB from '../img/ToDoB.png';
+import ToDoB from '../img/TodoBack.png';
 
 function PortfolioProvider({ children }) {
   const [projects, setProjects] = useState([
@@ -33,7 +32,7 @@ function PortfolioProvider({ children }) {
       title: 'titulo',
       description: 'descricao',
       link: 'www.alguma.coisa',
-      img: Image,
+      img: ToDoB,
       github: '',
     },
     {
@@ -41,7 +40,7 @@ function PortfolioProvider({ children }) {
       title: 'titulo',
       description: 'descricao',
       link: 'www.alguma.coisa',
-      img: Image,
+      img: ToDoB,
       github: '',
     },
     {
@@ -49,7 +48,7 @@ function PortfolioProvider({ children }) {
       title: 'titulo',
       description: 'descricao',
       link: 'www.alguma.coisa',
-      img: Image,
+      img: ToDoB,
       github: '',
     },
     {
@@ -57,7 +56,7 @@ function PortfolioProvider({ children }) {
       title: 'titulo',
       description: 'descricao',
       link: 'www.alguma.coisa',
-      img: Image,
+      img: ToDoB,
       github: '',
     },
   ]);

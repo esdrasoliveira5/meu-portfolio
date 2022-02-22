@@ -31,7 +31,7 @@ function Footer() {
   `;
   return (
     <FooterStyle>
-      <p>2022 Design & build by Esdras Oliveira</p>
+      <p>© 2022 Design & build by Esdras Oliveira</p>
     </FooterStyle>
   );
 }
