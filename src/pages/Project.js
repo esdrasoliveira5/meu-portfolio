@@ -19,7 +19,6 @@ function Project() {
     min-height: 100vh;
     background-color: ${backgroundColor};
     color: ${fontColor};
-    
     animation: ${animation} 3s;
     @keyframes whiteToBlack {
       from {background-color: white;}
@@ -29,38 +28,36 @@ function Project() {
       from {background-color: #2B2D42;}
       to {background-color: white;}
     }
-    
-    img {
-          padding: 20px;
-          width: 40%;
-        }
-      div {
-        @media screen and (max-width: 320px) {
-          width: 100%;
-        }
-        @media screen and (max-width: 768px) {
-          width: 80%;
-        }
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        height: 10%;
-        width: 60%;
-        h1 {
-          text-align: center;
-          animation:  mymy 3s ;
-        }
-        p{
-          padding: 10px;
-          width: 80%;
-        }
-      }
+  `;
 
-    @keyframes mymy {
-      from{ transform: translate(0px, 80px);}
-      to {transform: translate(0px, 0px);}
+  const ProjectStyle = styled.div`
+      @media screen and (max-width: 768px) {
+      flex-direction: column;
+      width: 100%;
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    img {
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      padding: 20px;
+      width: 70%;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p {
+        text-align: center;
+      }
+      a {
+        color: ${fontColor};
+      }
     }
   `;
 
@@ -68,6 +65,7 @@ function Project() {
     width: 100%;
     overflow: hidden;
     h1 {
+      text-align: center;
       font-size: 30px;
       animation:  mymy 3s ;
     }
@@ -89,15 +87,17 @@ function Project() {
   return (
     <MainStyled>
       <Header />
-      <img src={img} alt="" />
-      <div>
-        <HiddenBox>
-          <h1>{title}</h1>
-        </HiddenBox>
-        <p>{description}</p>
-        <a href={link}>Site</a>
-        <a href={github}>GitHub</a>
-      </div>
+      <ProjectStyle>
+        <img src={img} alt="" />
+        <div>
+          <HiddenBox>
+            <h1>{title}</h1>
+          </HiddenBox>
+          <p>{description}</p>
+          <a href={link}>Site</a>
+          <a href={github}>GitHub</a>
+        </div>
+      </ProjectStyle>
       <Footer />
     </MainStyled>
   );
