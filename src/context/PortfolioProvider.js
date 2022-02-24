@@ -4,6 +4,7 @@ import PortfolioContext from './AppContext';
 import ToDo1 from '../img/ToDo1.png';
 import ToDoB from '../img/TodoBack.png';
 import BlogsApi from '../img/BlogsApi.png';
+import SmithShop from '../img/SmithShop.JPG';
 
 function PortfolioProvider({ children }) {
   const [projects, setProjects] = useState([
@@ -39,11 +40,11 @@ function PortfolioProvider({ children }) {
     },
     {
       id: 4,
-      title: 'titulo',
-      description: 'descricao',
-      link: 'www.alguma.coisa',
-      img: ToDoB,
-      github: '',
+      title: 'Smith Shop',
+      description: 'Este projeto foi desenvolvido uma CRUD (Create, Read, Update e Delete) de itens medievais, no formato de uma API, utilizando Typescript.',
+      link: '',
+      img: SmithShop,
+      github: 'https://github.com/esdrasoliveira5/Smith-Shop-API',
     },
     {
       id: 5,
