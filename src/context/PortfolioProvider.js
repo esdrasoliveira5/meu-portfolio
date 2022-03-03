@@ -5,8 +5,8 @@ import ToDo1 from '../img/ToDo1.png';
 import ToDoB from '../img/TodoBack.png';
 import BlogsApi from '../img/BlogsApi.png';
 import SmithShop from '../img/SmithShop.JPG';
-import GameLibrary from '../img/Screenshot from 2022-03-03 17-00-06.png';
-import Game2 from '../img/Screenshot from 2022-03-03 18-09-06.png';
+import GameLibrary from '../img/GameDescription.jpg';
+import Game2 from '../img/GameLogin.jpg';
 
 function PortfolioProvider({ children }) {
   const [projects, setProjects] = useState([
