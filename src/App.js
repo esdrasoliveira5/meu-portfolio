@@ -9,7 +9,6 @@ import Work from './pages/Work';
 
 function App() {
   return (
-
     <PortfolioProvider>
       <Routes>
         <Route path="/" element={<Home />} />
