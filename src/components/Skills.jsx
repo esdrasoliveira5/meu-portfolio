@@ -206,6 +206,19 @@ function Skills() {
         </SkillStyled>
         <SkillStyled>
           <a
+            href="https://www.prisma.io/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_light_prisma_icon_130444.png"
+              alt="prisma"
+            />
+          </a>
+          <h3>Prisma</h3>
+        </SkillStyled>
+        <SkillStyled>
+          <a
             href="https://www.mongodb.com/"
             target="_blank"
             rel="noreferrer"
@@ -228,7 +241,7 @@ function Skills() {
               alt="mysql"
             />
           </a>
-          <h3>Mysql</h3>
+          <h3>MySQL</h3>
         </SkillStyled>
         <SkillStyled>
           <a
@@ -241,7 +254,7 @@ function Skills() {
               alt="postgresql"
             />
           </a>
-          <h3>Postgresql</h3>
+          <h3>PostgreSQL</h3>
         </SkillStyled>
         <SkillStyled>
           <a
@@ -268,19 +281,6 @@ function Skills() {
             />
           </a>
           <h3>Heroku</h3>
-        </SkillStyled>
-        <SkillStyled>
-          <a
-            href="https://postman.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
-              alt="postman"
-            />
-          </a>
-          <h3>Postman</h3>
         </SkillStyled>
         <SkillStyled>
           <a

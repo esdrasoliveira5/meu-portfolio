@@ -94,7 +94,7 @@ function Project() {
             <h1>{title}</h1>
           </HiddenBox>
           <p>{description}</p>
-          <a href={link}>Site</a>
+          {link ? <a href={link}>Site</a> : ''}
           <a href={github}>GitHub</a>
         </div>
       </ProjectStyle>
