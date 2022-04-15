@@ -2,49 +2,48 @@ import PropTypes from 'prop-types';
 import React, { useState, useMemo } from 'react';
 import PortfolioContext from './AppContext';
 import ToDo1 from '../img/ToDo1.png';
-import ToDoB from '../img/TodoBack.png';
 import BlogsApi from '../img/BlogsApi.png';
 import SmithShop from '../img/SmithShop.JPG';
 import GameLibrary from '../img/GameDescription.jpg';
-import Game2 from '../img/GameLogin.jpg';
+import buy from '../img/buy.png';
+import carshop from '../img/carshop.jpg';
 
 function PortfolioProvider({ children }) {
   const [projects, setProjects] = useState([
     {
       id: 1,
       title: 'Game library',
-      description: 'Aplicação web de um catálogo de games a onde o usuário pode criar uma conta e salvar games na sua coleção e separa-los por categoria. As principais ferramentas usadas foram JavaScript, React.js e Styled Components.',
-      link: 'https://gameslibrary5713.vercel.app/home',
+      description: 'Neste projeto foi desenvolvido uma aplicação completa com frontend em javascript e React.js, um backend em typescript e node.js e um banco de dados PostgreSQL.Essa aplicação serve para salvar e separar games em uma coleção.',
+      link: 'https://gameslibrary5713.vercel.app/',
       img: GameLibrary,
-      github: 'https://github.com/esdrasoliveira5/Games-library-frontend',
+      github: 'https://github.com/esdrasoliveira5/game-library',
     },
     {
       id: 2,
-      title: 'Game library back-end',
-      description: 'Neste projeto foi desenvolvido uma CRUD que gerencia dados de um usuário em um site de catalogo de games no formato de uma API RESTfull, utilizando Typescript, Node.js, Prisma e um banco de dados PostgreSQL alem de validações de token e criptografia com JWT e bCrypt.',
-      link: 'https://gamelibrary5713.herokuapp.com/',
-      img: Game2,
-      github: 'https://github.com/esdrasoliveira5/game-library-backend',
+      title: 'Buy from me',
+      description: `Neste projeto foi desenvolvido uma aplicação completa com frontend em javascript e React.js, 
+      um backend em typescript e node.js e um banco de dados PostgreSQL. Essa aplicação simula um site de anúncios de produtos novos e usados.`,
+      link: 'buy-from-me.vercel.app/',
+      img: buy,
+      github: 'https://github.com/esdrasoliveira5/buy-from-me',
     },
     {
       id: 3,
-      title: 'To-do List Front-end',
-      description: `Um app to-do list a onde você cria uma conta e armazena tarefas. 
-       Foram utilizados as ferramentas JavaScript, React.js e styled-components para a parte visual, 
-       ele se comunica com um back-end através de requisições a Api.`,
-      link: 'https://to-do-list-ten-ashen.vercel.app/',
+      title: 'To-Do list',
+      description: `Neste projeto foi desenvolvido uma aplicação completa com frontend em javascript e React.js, 
+      um backend em node.js e um banco de dados PostgreSQL. Essa aplicação permite salvar e excluir tarefas em um banco de dados.`,
+      link: undefined,
       img: ToDo1,
-      github: 'https://github.com/esdrasoliveira5/To-do-list',
+      github: 'https://github.com/esdrasoliveira5/to-do-list',
     },
     {
       id: 4,
-      title: 'To-do List Back-end',
-      description: `Uma api RESTful feita com node.js que se comunica 
-      com um banco de dados PostgreSql através do ORM Sequelize e faz 
-      validações de permissão de usuário por token com o JWT.`,
-      link: 'https://to-do-list-back-end-3456.herokuapp.com/',
-      img: ToDoB,
-      github: 'https://github.com/esdrasoliveira5/to-do-list-backend',
+      title: 'Car Shop',
+      description: `Neste projeto foi desenvolvido uma CRUD api para
+       gerenciar uma concessionária de veículos utilizando o banco de dados MongoDB aplicando conceitos de POO.`,
+      link: undefined,
+      img: carshop,
+      github: 'https://github.com/esdrasoliveira5/Car-Shop',
     },
     {
       id: 5,

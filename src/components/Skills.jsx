@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import SequelizeLogo from '../img/logo-small.png';
 import StyledComponentsLogo from '../img/logo.png';
+import prisma from '../img/prisma.png';
 
 const SkillsStyle = styled.div`
   margin: 20px;
@@ -211,7 +212,7 @@ function Skills() {
             rel="noreferrer"
           >
             <img
-              src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_light_prisma_icon_130444.png"
+              src={prisma}
               alt="prisma"
             />
           </a>
