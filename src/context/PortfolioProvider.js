@@ -25,7 +25,7 @@ function PortfolioProvider({ children }) {
       title: 'Buy from me',
       description: `Neste projeto foi desenvolvido uma aplicação completa com frontend em javascript e React.js, 
       um backend em typescript e node.js e um banco de dados PostgreSQL. Essa aplicação simula um site de anúncios de produtos novos e usados.`,
-      link: 'buy-from-me.vercel.app/',
+      link: 'https://buy-from-me.vercel.app/',
       img: buy,
       github: 'https://github.com/esdrasoliveira5/buy-from-me',
     },
