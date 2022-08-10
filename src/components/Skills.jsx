@@ -50,6 +50,19 @@ function Skills() {
       <SkillsBoxStyled>
         <SkillStyled>
           <a
+            href="https://www.java.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+              alt="java"
+            />
+          </a>
+          <h3>Java</h3>
+        </SkillStyled>
+        <SkillStyled>
+          <a
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             target="_blank"
             rel="noreferrer"
@@ -89,6 +102,19 @@ function Skills() {
         </SkillStyled>
         <SkillStyled>
           <a
+            href="https://www.ruby-lang.org/en/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg"
+              alt="ruby"
+            />
+          </a>
+          <h3>Ruby</h3>
+        </SkillStyled>
+        <SkillStyled>
+          <a
             href="https://www.w3.org/html/"
             target="_blank"
             rel="noreferrer"
@@ -112,6 +138,71 @@ function Skills() {
             />
           </a>
           <h3>Css</h3>
+        </SkillStyled>
+        <SkillStyled>
+          <a
+            href="https://nodejs.org"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+              alt="nodejs"
+            />
+          </a>
+          <h3>Node Js</h3>
+        </SkillStyled>
+        <SkillStyled>
+          <a
+            href="https://spring.io/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+              alt="spring"
+            />
+          </a>
+          <h3>Spring</h3>
+        </SkillStyled>
+        <SkillStyled>
+          <a
+            href="https://expressjs.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+              alt="express"
+            />
+          </a>
+          <h3>Express</h3>
+        </SkillStyled>
+        <SkillStyled>
+          <a
+            href="https://rubyonrails.org"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg"
+              alt="rails"
+            />
+          </a>
+          <h3>Ruby on Rails</h3>
+        </SkillStyled>
+        <SkillStyled>
+          <a
+            href="https://reactjs.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+              alt="react"
+            />
+          </a>
+          <h3>ReactJs</h3>
         </SkillStyled>
         <SkillStyled>
           <a
@@ -142,19 +233,6 @@ function Skills() {
         </SkillStyled>
         <SkillStyled>
           <a
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-              alt="react"
-            />
-          </a>
-          <h3>ReactJs</h3>
-        </SkillStyled>
-        <SkillStyled>
-          <a
             href="https://redux.js.org"
             target="_blank"
             rel="noreferrer"
@@ -166,32 +244,7 @@ function Skills() {
           </a>
           <h3>Redux</h3>
         </SkillStyled>
-        <SkillStyled>
-          <a
-            href="https://nodejs.org"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-              alt="nodejs"
-            />
-          </a>
-          <h3>Node Js</h3>
-        </SkillStyled>
-        <SkillStyled>
-          <a
-            href="https://expressjs.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-              alt="express"
-            />
-          </a>
-          <h3>Express</h3>
-        </SkillStyled>
+
         <SkillStyled>
           <a
             href="https://sequelize.org/"

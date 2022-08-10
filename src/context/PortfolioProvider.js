@@ -7,6 +7,8 @@ import SmithShop from '../img/SmithShop.JPG';
 import GameLibrary from '../img/GameDescription.jpg';
 import buy from '../img/buy.png';
 import carshop from '../img/carshop.jpg';
+import cyberWallet from '../img/cyberwallet.jpeg';
+import droneFeeder from '../img/droneFeeder.png';
 
 function PortfolioProvider({ children }) {
   const [projects, setProjects] = useState([
@@ -60,6 +62,22 @@ function PortfolioProvider({ children }) {
       link: undefined,
       img: SmithShop,
       github: 'https://github.com/esdrasoliveira5/Smith-Shop-API',
+    },
+    {
+      id: 7,
+      title: 'Cyber Wallet',
+      description: 'CRUD api para gerenciar uma carteira digital utilizando o banco de dados MongoDB aplicando conceitos de POO e SOLID.',
+      link: undefined,
+      img: cyberWallet,
+      github: 'https://github.com/esdrasoliveira5/cyber-wallet',
+    },
+    {
+      id: 8,
+      title: 'Drone Feeder',
+      description: 'API Criada durante o curso de Aceleração em Java oferecido pela Trybe. O Objetivo desse projeto era criar uma API REST de entregas feitas por Drones.',
+      link: 'https://drone-feede-app.vercel.app/',
+      img: droneFeeder,
+      github: 'https://github.com/esdrasoliveira5/DroneFeeder',
     },
   ]);
   const [nightMode, setNightMode] = useState(false);

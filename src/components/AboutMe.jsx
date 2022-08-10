@@ -52,14 +52,12 @@ function AboutMe() {
     <AboutMeStyle>
       <img src={MeImg} alt="" />
       <p>
-        {
-          `Sou um apaixonado por música, artes e tecnologia, 
-          bacharel em música pela Universidade Federal de Minas Gerais, 
-          professor e chefe de naipe com 6 anos de experiência. 
-          Após me dedicar durante anos a música estou me voltando agora para a área da tecnologia, 
-          tive a oportunidade de ser aprovado no processo seletivo do curso de desenvolvimento Web da Trybe e 
-          atuo profissionalmente como desenvolvedor Web Full Stack.`
-        }
+        Sou um apaixonado por música, artes e tecnologia,
+        bacharel em música pela Universidade Federal de Minas Gerais,
+        professor e chefe de naipe com 6 anos de experiência.
+        Após me dedicar durante anos a música iniciei uma nova carreira na área da tecnologia,
+        me formei na Trybe uma escola de formação de profissionais de tecnologia voltada para o
+        desenvolvimento Web e atuo profissionalmente como desenvolvedor Full Stack.
       </p>
     </AboutMeStyle>
   );
